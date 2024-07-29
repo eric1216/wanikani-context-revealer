@@ -1,0 +1,14 @@
+.newStyle {
+  color: #616161;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  background-color: #616161;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: help;
+  user-select: none;
+}
+
+.newStyle:hover {
+  color: initial;
+  background-color: transparent;
+}

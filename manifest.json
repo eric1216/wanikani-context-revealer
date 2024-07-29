@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "WaniKani Context Example Revealer",
+  "version": "1.0",
+  "description": "Covers English text in WaniKani context sentences and common word combination with a grey box and reveals on hover.",
+  "content_scripts": [
+    {
+      "matches": ["*://www.wanikani.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "images/icon.png"
+  }
+}
