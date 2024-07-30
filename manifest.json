@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "WaniKani Context Example Revealer",
+  "name": "WaniKani Context Revealer",
   "version": "1.0",
   "description": "Covers English text in WaniKani context sentences and common word combination with a grey box and reveals on hover.",
   "content_scripts": [
